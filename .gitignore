@@ -187,13 +187,3 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
-
-#exceptions
-!/parseSPI
-/parseSPI/*
-!/parseSPI/bin
-/parseSPI/bin/*
-!/parseSPI/bin/Debug
-/parseSPI/bin/Debug/*
-!/parseSPI/bin/Debug/*.html
-!/parseSPI/bin/Debug/*.xml

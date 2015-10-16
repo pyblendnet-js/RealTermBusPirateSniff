@@ -35,7 +35,7 @@ Module Module1
         rt.PutString("10" & vbCr) ' & vbLf)
         Thread.Sleep(100)
         Console.WriteLine("Char count =" & rt.CharCount)
-        Dim N As Integer = 4
+        Dim N As Integer = 1
         Dim baud = 4000000 / (N + 1)
         Console.WriteLine("Attempting to go to " & baud.ToString())
         rt.PutString(N.ToString() & vbCr) ' & vbLf)   '4000000 / (N + 1) where is N > 1
